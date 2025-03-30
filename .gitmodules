@@ -1,0 +1,6 @@
+[submodule "chat-service"]
+	path = chat-service
+	url = https://github.com/yxngxr1/chat.git
+[submodule "chat-web-ui"]
+	path = chat-web-ui
+	url = https://github.com/yxngxr1/chat-web.git

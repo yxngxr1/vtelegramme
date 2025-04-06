@@ -19,12 +19,17 @@ A full-stack chat application consisting of a backend service and a frontend UI,
    ```bash
    git clone --recurse-submodules https://github.com/yxngxr1/vtelegramme.git
    cd vtelegramme
-   
+   ```
+   or Updates all submodules to new commits
+   ```bash
+   git submodule update --remote
+   ```
+
 2. Create a .env file in the current directory like .env.example
 
 3. Build and run the services with Docker Compose:
    ```bash
-   docker-compose up --build
+   docker-compose up -d --build
 
 ### Accessing the Application
 #### Frontend (UI): The frontend service will be running on http://localhost:4200 by default.
